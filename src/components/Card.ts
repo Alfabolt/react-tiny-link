@@ -26,7 +26,7 @@ const smallDescriptionStyle = css`
   }
   ${media.mobile`
     > p {
-      
+    
   -webkit-line-clamp: ${({ minLine }) => (minLine ? minLine : 1)};
  
     }
@@ -136,6 +136,7 @@ export const Card = styled('a')`
   text-decoration: none;
   -webkit-tap-highlight-color: rgb(245, 248, 250);
   cursor: pointer;
+  border-radius: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
   &:hover {
     background: rgb(245, 248, 250);
