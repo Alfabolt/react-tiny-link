@@ -25,7 +25,8 @@
     "version:patch": "npm version patch",
     "push:git": "git push --tags origin master --quiet",
     "commit:build": "git add . && git commit -m \"Deploy commit\" --quiet & npm run push:git",
-    "create:patch": "npm run version:patch && npm run push:git"
+    "create:patch": "npm run version:patch && npm run push:git",
+    "pre-commit": "build"
   },
   "eslintConfig": {
     "extends": "react-app"
