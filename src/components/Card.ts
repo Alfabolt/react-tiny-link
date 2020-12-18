@@ -130,9 +130,6 @@ export const Card = styled('a')`
   flex-direction: ${({ cardSize }) => (isLarge(cardSize) ? 'column' : 'row')}
     ${({ cardSize }) => (isLarge(cardSize) ? largeMediaStyle : smallMediaStyle)};
   transition-property: background, border-color, height;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(225, 232, 237);
   overflow: hidden;
   text-decoration: none;
   -webkit-tap-highlight-color: rgb(245, 248, 250);
