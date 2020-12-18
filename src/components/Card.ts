@@ -92,9 +92,9 @@ export const ContentWrapper = styled('div')`
 export const Header = styled('header')`
   text-align: left;
   font-size: 16px;
-  font-weight: bold;
+  line-height: 20px;
+  font-weight: 500;
   margin: 0;
-  flex-grow: 1.2;
 
   ${({ cardSize }) => (!isLarge(cardSize) ? smallDescriptionStyle : largeDescriptionStyle)};
 `
