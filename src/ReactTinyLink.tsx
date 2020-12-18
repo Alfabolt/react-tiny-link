@@ -51,11 +51,11 @@ export const ReactTinyLink: React.FC<IReactTinyLinkProps> = ({
               {description ? description : data.description ? data.description : url}
             </Description>
           </Content>
-          <Footer className="react_tinylink_footer">
-            <Description loading={loading} loadingWidth={1} className="react_tinylink_card_footer_description">
-              {getHostname(url)}
-            </Description>
-          </Footer>
+          {/*<Footer className="react_tinylink_footer">*/}
+          {/*  <Description loading={loading} loadingWidth={1} className="react_tinylink_card_footer_description">*/}
+          {/*    {getHostname(url)}*/}
+          {/*  </Description>*/}
+          {/*</Footer>*/}
         </ContentWrapper>
       </Card>}
     </>
