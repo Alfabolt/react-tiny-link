@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b68fa495-88a9-4650-88b9-732c623769f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lpHRXrywDVdv6VxVa6l41daqQR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Users\DE\Documents\GitHub\react-tiny-link\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b68fa495-88a9-4650-88b9-732c623769f8" name="Default Changelist" comment="" />
+      <created>1608287105416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608287105416</updated>
+      <workItem from="1608287106579" duration="709000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Card.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/BoardGameGeek/ScrapBoardGameGeek.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Instagram/ScrapInstagram.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Youtube/ScrapYoutube.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Twitter/ScrapTwitter.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Default/ScrapDefault.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Amazon/ScrapAmazon.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Video/ScrapVideo.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Image/ScrapImage.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/Audio/ScrapAudio.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/rules/utils.d.ts" />
+        <option value="$PROJECT_DIR$/src/ReactTinyLinkTypes.d.ts" />
+        <option value="$PROJECT_DIR$/src/utils.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/CardMedia.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/Description.d.ts" />
+        <option value="$PROJECT_DIR$/src/demo/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/demo/Hover.d.ts" />
+        <option value="$PROJECT_DIR$/src/ReactTinyLink.d.ts" />
+        <option value="$PROJECT_DIR$/src/useMountFetch.d.ts" />
+        <option value="$PROJECT_DIR$/src/index.d.ts" />
+      </list>
+    </option>
+  </component>
+</project>
