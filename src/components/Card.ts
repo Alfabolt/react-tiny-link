@@ -4,7 +4,7 @@ import { ReactTinyLinkType } from '../ReactTinyLinkTypes'
 
 // Media Style
 const smallMediaStyle = css`
-  height: 127px;
+  height: 91px;
 `
 const largeMediaStyle = css`
   height: ${({ isShownGraphic }) => (isShownGraphic ? '382px;' : 'auto')};
@@ -60,7 +60,7 @@ export const Media = styled('div')`
           } no-repeat rgb(225, 232, 237)`
         : placeholderBg};
     
-    flex: ${({ cardSize }) => (isLarge(cardSize) ? '1 1 0%;' : '0 0 125px;')}
+    flex: ${({ cardSize }) => (isLarge(cardSize) ? '1 1 0%;' : '0 0 91px;')}
     overflow: hidden;
     transition: flex-basis 0.25s ease-in-out 0s;
 `
@@ -83,7 +83,7 @@ export const ContentWrapper = styled('div')`
   justify-content: space-around;
   flex-direction: column;
   flex: 1;
-  padding: 10px 15px;
+  padding: 14px 16px;
   min-width: 0;
   box-sizing: border-box;
   ${({ cardSize }) => isLarge(cardSize) && largeContentStyle};
@@ -110,7 +110,9 @@ export const Content = styled('div')`
 
 export const Footer = styled('footer')`
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6E6E7D;
   margin: 0;
   flex-grow: 0;
 `
@@ -119,7 +121,7 @@ export const Card = styled('a')`
   max-width: ${({ width }) => (width ? width : `100vw`)};
   background-color: rgb(255, 255, 255);
   color: rgb(24, 25, 25);
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   display: flex;
   opacity: 1;
   position: relative;
@@ -137,10 +139,7 @@ export const Card = styled('a')`
   -webkit-tap-highlight-color: rgb(245, 248, 250);
   cursor: pointer;
   border-radius: 16px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
-  &:hover {
-    background: rgb(245, 248, 250);
-  }
+  background-color: #24243B0F;
 `
 Card.defaultProps = {
   rel: 'noopener noreferrer',

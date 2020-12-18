@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Card, ContentWrapper, Header, Content } from './components/Card'
+import { Card, ContentWrapper, Header, Footer } from './components/Card'
 import Description from './components/Description';
-import { noop, defaultData } from './utils'
+import { getHostname, noop, defaultData } from './utils'
 import { IReactTinyLinkProps } from './ReactTinyLinkTypes'
 import ScraperWraper from './rules'
 import CardMedia from './components/CardMedia'
@@ -46,16 +46,11 @@ export const ReactTinyLink: React.FC<IReactTinyLinkProps> = ({
               {header ? header : data.title ? data.title : url}
             </Description>
           </Header>
-          <Content maxLine={maxLine} minLine={minLine} className="react_tinylink_card_content" cardSize={cardSize}>
-            <Description loading={loading} loadingWidth={1} className="react_tinylink_card_content_description">
-              {description ? description : data.description ? data.description : url}
+          <Footer className="react_tinylink_footer">
+            <Description loading={loading} loadingWidth={1} className="react_tinylink_card_footer_description">
+              {getHostname(url)}
             </Description>
-          </Content>
-          {/*<Footer className="react_tinylink_footer">*/}
-          {/*  <Description loading={loading} loadingWidth={1} className="react_tinylink_card_footer_description">*/}
-          {/*    {getHostname(url)}*/}
-          {/*  </Description>*/}
-          {/*</Footer>*/}
+          </Footer>
         </ContentWrapper>
       </Card>}
     </>
