@@ -93,7 +93,7 @@ export const Header = styled('header')`
   text-align: left;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
 
   ${({ cardSize }) => (!isLarge(cardSize) ? smallDescriptionStyle : largeDescriptionStyle)};
@@ -129,7 +129,6 @@ export const Card = styled('a')`
   transition-timing-function: ease-in-out;
   flex-direction: ${({ cardSize }) => (isLarge(cardSize) ? 'column' : 'row')}
     ${({ cardSize }) => (isLarge(cardSize) ? largeMediaStyle : smallMediaStyle)};
-
   transition-property: background, border-color, height;
   border-width: 1px;
   border-style: solid;
@@ -140,6 +139,10 @@ export const Card = styled('a')`
   cursor: pointer;
   border-radius: 16px;
   background-color: #24243B0F;
+  &:hover {
+    color: none;
+    text-decoration: none;
+  }
 `
 Card.defaultProps = {
   rel: 'noopener noreferrer',
