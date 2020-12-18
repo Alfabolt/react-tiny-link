@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b68fa495-88a9-4650-88b9-732c623769f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ReactTinyLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReactTinyLink.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       <workItem from="1608287106579" duration="709000" />
       <workItem from="1608288400791" duration="1518000" />
       <workItem from="1608291588174" duration="1617000" />
-      <workItem from="1608299832016" duration="277000" />
+      <workItem from="1608299832016" duration="668000" />
     </task>
     <servers />
   </component>
