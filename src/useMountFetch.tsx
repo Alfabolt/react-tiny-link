@@ -80,7 +80,7 @@ export function useMountFetch(
           const modifiedInstaUrl = `https://publish.twitter.com/oembed?url=${url}`
           client = fetch(proxyUrl ? `${proxyUrl}/${modifiedInstaUrl}` : modifiedInstaUrl, { headers })
         } else {
-          client = fetch(proxyUrl ? `${proxyUrl}/${url}` : url, { headers })
+          client = fetch(proxyUrl ? `${proxyUrl}/get?url=${url}` : url, { headers })
         }
 
         const data = await ScraperWraper(url, client, defaultMedias)
